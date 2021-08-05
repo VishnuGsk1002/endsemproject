@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    font-size: 1.1vw;
+    padding:2vh ;
+    
+}
+.navbar{
+    position: absolute;
+    
+    left:30vw ;
+    top:1vh; 
+    padding: 1vh;
+    margin-top: 2vh;
+
+}
+.navbar li{
+    display: inline;
+    /* left:30vw ; */
+    padding: 2vw;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(48, 6, 126);;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+#home{
+    background-color: whitesmoke;
+}
+#home h1{
+    font-size: 2vw;
+    padding: 5vh;
+    
+}
+ 
+
+
+
+.cart{
+    position: relative;
+    top: -1.45vh;
+    left: 26vw;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size:1.2vw;
+}
+/* --------cart page styling -----  */
+
+
+
+.image img{
+  width: 100%;
+  height:25vh;
+}
+.footer{
+    height:3vh;
+    background-color: aliceblue;
+}
+.fcontent{
+    position: relative;
+    justify-content: center;
+}
+.container{
+    background-color: whitesmoke;
+}
